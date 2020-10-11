@@ -16,7 +16,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "4.1.1",
+    "@typescript-eslint/parser": "4.4.0",
     "eslint": "7.9.0",
     "eslint-plugin-import": "2.22.0",
     "husky": "4.3.0",
