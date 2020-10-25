@@ -9,3 +9,7 @@ extends:
   - plugin:import/typescript
 ignorePatterns:
   - next.config.js
+  - next-env.d.ts
+  - node_modules
+  - .next
+  - public
