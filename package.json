@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@material-ui/core": "5.0.0-alpha.17",
-    "framer-motion": "2.9.4",
+    "framer-motion": "2.9.5",
     "next": "9.5.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
