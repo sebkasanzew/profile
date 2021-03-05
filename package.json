@@ -9,7 +9,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@material-ui/core": "5.0.0-alpha.26",
+    "@material-ui/core": "5.0.0-alpha.27",
     "framer-motion": "2.9.5",
     "next": "10.0.7",
     "react": "17.0.1",
