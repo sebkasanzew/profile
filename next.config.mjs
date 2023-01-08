@@ -2,11 +2,6 @@
 const nextConfig = {
 	reactStrictMode: true,
 
-	compiler: {
-		reactRemoveProperties: true,
-		removeConsole: true,
-	},
-
 	experimental: {
 		appDir: true,
 	},
