@@ -8,6 +8,8 @@ import {
 } from '@react-three/drei'
 import { useMemo } from 'react'
 
+import { toThreeColor, useCssVariable } from './useCssVariable'
+
 const NUM = 3
 
 interface Positions {
@@ -32,6 +34,8 @@ function Scene() {
 		return pos
 	}, [])
 
+	const color = useCssVariable('--p', toThreeColor)
+
 	return (
 		<Canvas>
 			<OrthographicCamera makeDefault zoom={40} />
@@ -39,7 +43,7 @@ function Scene() {
 			<group position={[0, 0, -10]}>
 				{positions.map(({ id, position }) => (
 					<Icosahedron key={id} position={position} args={[1, 1]}>
-						<meshBasicMaterial color='white' wireframe />
+						<meshBasicMaterial color={color} wireframe />
 					</Icosahedron>
 				))}
 			</group>
