@@ -1,5 +1,8 @@
 {
-    "cSpell.words": [
-        "tailwindcss"
-    ]
+  "cSpell.words": [
+    "tailwindcss"
+  ],
+  "css.lint.unknownAtRules": "ignore",
+  "typescript.tsdk": "node_modules\\.pnpm\\registry.npmjs.org+typescript@4.9.4\\node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
