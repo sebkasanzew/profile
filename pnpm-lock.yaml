@@ -7,6 +7,7 @@ specifiers:
   '@types/react-dom': 18.0.10
   '@vercel/analytics': 0.1.6
   autoprefixer: 10.4.13
+  daisyui: 2.46.1
   eslint: 8.31.0
   eslint-config-next: 13.1.1
   eslint-config-prettier: 8.6.0
@@ -32,6 +33,7 @@ devDependencies:
   '@types/react': registry.npmjs.org/@types/react/18.0.26
   '@types/react-dom': registry.npmjs.org/@types/react-dom/18.0.10
   autoprefixer: registry.npmjs.org/autoprefixer/10.4.13_postcss@8.4.21
+  daisyui: registry.npmjs.org/daisyui/2.46.1_gbtt6ss3tbiz4yjtvdr6fbrj44
   eslint: registry.npmjs.org/eslint/8.31.0
   eslint-config-next: registry.npmjs.org/eslint-config-next/13.1.1_iukboom6ndih5an6iafl45j2fe
   eslint-config-prettier: registry.npmjs.org/eslint-config-prettier/8.6.0_eslint@8.31.0
@@ -777,6 +779,25 @@ packages:
     version: 1.1.4
     dev: true
 
+  registry.npmjs.org/color-string/1.9.1:
+    resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz}
+    name: color-string
+    version: 1.9.1
+    dependencies:
+      color-name: registry.npmjs.org/color-name/1.1.4
+      simple-swizzle: registry.npmjs.org/simple-swizzle/0.2.2
+    dev: true
+
+  registry.npmjs.org/color/4.2.3:
+    resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/color/-/color-4.2.3.tgz}
+    name: color
+    version: 4.2.3
+    engines: {node: '>=12.5.0'}
+    dependencies:
+      color-convert: registry.npmjs.org/color-convert/2.0.1
+      color-string: registry.npmjs.org/color-string/1.9.1
+    dev: true
+
   registry.npmjs.org/concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz}
     name: concat-map
@@ -801,6 +822,15 @@ packages:
       which: registry.npmjs.org/which/2.0.2
     dev: true
 
+  registry.npmjs.org/css-selector-tokenizer/0.8.0:
+    resolution: {integrity: sha512-Jd6Ig3/pe62/qe5SBPTN8h8LeUg/pT4lLgtavPf7updwwHpvFzxvOQBHYj2LZDMjUnBzgvIUSjRcf6oT5HzHFg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/css-selector-tokenizer/-/css-selector-tokenizer-0.8.0.tgz}
+    name: css-selector-tokenizer
+    version: 0.8.0
+    dependencies:
+      cssesc: registry.npmjs.org/cssesc/3.0.0
+      fastparse: registry.npmjs.org/fastparse/1.1.2
+    dev: true
+
   registry.npmjs.org/cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz}
     name: cssesc
@@ -813,6 +843,25 @@ packages:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz}
     name: csstype
     version: 3.1.1
+    dev: true
+
+  registry.npmjs.org/daisyui/2.46.1_gbtt6ss3tbiz4yjtvdr6fbrj44:
+    resolution: {integrity: sha512-i59+nLuzzPAVOhNhot3KLtt6stfYeCIPXs9uiLcpXjykpqxHfBA3W6hQWOUWPMwfqhyQd0WKub3sydtPGjzLtA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/daisyui/-/daisyui-2.46.1.tgz}
+    id: registry.npmjs.org/daisyui/2.46.1
+    name: daisyui
+    version: 2.46.1
+    peerDependencies:
+      autoprefixer: ^10.0.2
+      postcss: ^8.1.6
+    dependencies:
+      autoprefixer: registry.npmjs.org/autoprefixer/10.4.13_postcss@8.4.21
+      color: registry.npmjs.org/color/4.2.3
+      css-selector-tokenizer: registry.npmjs.org/css-selector-tokenizer/0.8.0
+      postcss: registry.npmjs.org/postcss/8.4.21
+      postcss-js: registry.npmjs.org/postcss-js/4.0.0_postcss@8.4.21
+      tailwindcss: registry.npmjs.org/tailwindcss/3.2.4_postcss@8.4.21
+    transitivePeerDependencies:
+      - ts-node
     dev: true
 
   registry.npmjs.org/damerau-levenshtein/1.0.8:
@@ -1439,6 +1488,12 @@ packages:
     version: 2.0.6
     dev: true
 
+  registry.npmjs.org/fastparse/1.1.2:
+    resolution: {integrity: sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/fastparse/-/fastparse-1.1.2.tgz}
+    name: fastparse
+    version: 1.1.2
+    dev: true
+
   registry.npmjs.org/fastq/1.15.0:
     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/fastq/-/fastq-1.15.0.tgz}
     name: fastq
@@ -1803,6 +1858,12 @@ packages:
       call-bind: registry.npmjs.org/call-bind/1.0.2
       get-intrinsic: registry.npmjs.org/get-intrinsic/1.1.3
       is-typed-array: registry.npmjs.org/is-typed-array/1.1.10
+    dev: true
+
+  registry.npmjs.org/is-arrayish/0.3.2:
+    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.3.2.tgz}
+    name: is-arrayish
+    version: 0.3.2
     dev: true
 
   registry.npmjs.org/is-bigint/1.0.4:
@@ -2753,6 +2814,14 @@ packages:
       call-bind: registry.npmjs.org/call-bind/1.0.2
       get-intrinsic: registry.npmjs.org/get-intrinsic/1.1.3
       object-inspect: registry.npmjs.org/object-inspect/1.12.2
+    dev: true
+
+  registry.npmjs.org/simple-swizzle/0.2.2:
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz}
+    name: simple-swizzle
+    version: 0.2.2
+    dependencies:
+      is-arrayish: registry.npmjs.org/is-arrayish/0.3.2
     dev: true
 
   registry.npmjs.org/slash/3.0.0:
