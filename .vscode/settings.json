@@ -5,7 +5,8 @@
     "lora",
     "Parens",
     "tailwindcss",
-    "vercel"
+    "vercel",
+    "wireframe"
   ],
   "css.lint.unknownAtRules": "ignore",
   "eslint.format.enable": true,

@@ -17,7 +17,7 @@ export default function RootLayout(props: Props) {
 		<html lang='en' className={[inter.variable, lora.variable].join(' ')}>
 			<head />
 
-			<body>
+			<body style={{ height: '100vh' }}>
 				{children}
 
 				<AnalyticsWrapper />
