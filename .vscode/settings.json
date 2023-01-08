@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
-    "tailwindcss"
+    "tailwindcss",
+    "vercel"
   ],
   "css.lint.unknownAtRules": "ignore",
   "typescript.tsdk": "node_modules\\.pnpm\\registry.npmjs.org+typescript@4.9.4\\node_modules\\typescript\\lib",
