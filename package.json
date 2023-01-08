@@ -3,39 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint . --fix"
+    "lint": "next lint",
+    "upgrade": "pnpm update --latest --interactive"
   },
   "dependencies": {
-    "@material-ui/core": "5.0.0-beta.5",
-    "framer-motion": "2.9.5",
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@next/font": "13.1.1",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "4.33.0",
-    "eslint": "7.32.0",
-    "eslint-plugin-import": "2.26.0",
-    "husky": "4.3.8",
-    "lint-staged": "10.5.4",
-    "prettier": "2.7.1",
-    "typescript": "4.7.4"
-  },
-  "resolutions": {
-    "webpack": "^5.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "./**/*.{js,jsx}": [
-      "eslint . --fix",
-      "git add"
-    ]
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "10.4.13",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "postcss": "8.4.21",
+    "tailwindcss": "3.2.4",
+    "typescript": "4.9.4"
   }
 }
