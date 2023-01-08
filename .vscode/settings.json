@@ -1,10 +1,12 @@
 {
   "cSpell.words": [
     "automerge",
+    "Parens",
     "tailwindcss",
     "vercel"
   ],
   "css.lint.unknownAtRules": "ignore",
+  "eslint.format.enable": true,
   "typescript.tsdk": "node_modules\\.pnpm\\registry.npmjs.org+typescript@4.9.4\\node_modules\\typescript\\lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
