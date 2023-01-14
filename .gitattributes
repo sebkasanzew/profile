@@ -1,0 +1,8 @@
+# This is a list of file patterns that are binary and should not be
+# merged. See gitattributes(5) for more information about git
+# attribute files.
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text

@@ -1,55 +1,77 @@
 'use client'
 
-import { Canvas } from '@react-three/fiber'
 import {
-	Icosahedron,
+	Gltf,
 	OrbitControls,
 	OrthographicCamera,
+	PerspectiveCamera,
+	useHelper,
 } from '@react-three/drei'
-import { useMemo } from 'react'
+import { CameraHelperProps } from '@react-three/fiber'
+import { useControls } from 'leva'
+import { useRef } from 'react'
+import { CameraHelper, PointLight } from 'three'
 
-import { toThreeColor, useCssVariable } from './useCssVariable'
-
-const NUM = 3
-
-interface Positions {
-	id: string
-	position: [number, number, number]
-}
+import { staticPath } from '#/app/$path'
 
 function Scene() {
-	const positions = useMemo(() => {
-		const pos: Positions[] = []
-		const half = (NUM - 1) / 2
+	const cameraRef = useRef(null!)
+	const pointLightRef = useRef<PointLight>(null!)
 
-		for (let x = 0; x < NUM; x++) {
-			for (let y = 0; y < NUM; y++) {
-				pos.push({
-					id: `${x}-${y}`,
-					position: [(x - half) * 4, (y - half) * 4, 0],
-				})
-			}
-		}
+	// useHelper(pointLightRef, PointLightHelper, 0.5, 'hotpink')
+	// useHelper(cameraRef, CameraHelper)
 
-		return pos
-	}, [])
+	const { intensity, position } = useControls({
+		intensity: { value: 0.5, min: 0, max: 5 },
+		position: { value: [0, 2.5, 0] },
+	})
 
-	const color = useCssVariable('--p', toThreeColor)
+	const { rotation } = useControls({
+		rotation: { value: [0.33, 0.8, 0] },
+	})
 
 	return (
-		<Canvas>
-			<OrthographicCamera makeDefault zoom={40} />
+		<>
+			<ambientLight intensity={0.03} />
 
-			<group position={[0, 0, -10]}>
-				{positions.map(({ id, position }) => (
-					<Icosahedron key={id} position={position} args={[1, 1]}>
-						<meshBasicMaterial color={color} wireframe />
-					</Icosahedron>
-				))}
-			</group>
+			<pointLight
+				ref={pointLightRef}
+				intensity={intensity}
+				position={position}
+				castShadow
+				shadow-bias={-0.001}
+				shadow-camera-near={0.01}
+				shadow-camera-far={300}
+			/>
 
-			<OrbitControls />
-		</Canvas>
+			{/* <PerspectiveCamera ref={cameraRef} position={[0, 0, 20]} /> */}
+
+			<OrthographicCamera
+				ref={cameraRef}
+				makeDefault
+				position={[0, 0, 1000]}
+				zoom={80}
+			/>
+
+			<mesh>
+				<Gltf
+					src={staticPath.rooms.scene_gltf}
+					rotation={rotation}
+					receiveShadow
+					castShadow
+				/>
+				<shadowMaterial transparent opacity={0.4} />
+			</mesh>
+
+			<OrbitControls
+				maxZoom={150}
+				minZoom={40}
+				maxPolarAngle={(Math.PI / 4) * 2.5}
+				minPolarAngle={Math.PI / 3}
+				maxAzimuthAngle={Math.PI / 4}
+				minAzimuthAngle={-Math.PI / 4}
+			/>
+		</>
 	)
 }
 
