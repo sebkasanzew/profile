@@ -1,6 +1,12 @@
-import { SetStateAction, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Color } from 'three'
 
+/**
+ *
+ * @param variableName - e.g. --color-primary
+ * @param parse
+ * @returns
+ */
 export function useCssVariable<TValue = string | undefined>(
 	variableName: string,
 	parse?: (c: string) => TValue,
@@ -9,12 +15,14 @@ export function useCssVariable<TValue = string | undefined>(
 
 	useEffect(() => {
 		const style = getComputedStyle(document.documentElement)
-		const value = style.getPropertyValue(variableName)
+		const cssValue = style.getPropertyValue(variableName)
 
-		if (value && parse) {
-			setValue(parse(value))
+		if (cssValue && parse) {
+			setValue(parse(cssValue))
+		} else if (cssValue) {
+			setValue(cssValue as TValue)
 		} else {
-			setValue(value as SetStateAction<TValue | undefined>)
+			setValue(undefined)
 		}
 	}, [parse, variableName])
 
