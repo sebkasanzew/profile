@@ -53,15 +53,12 @@ function Scene() {
 				zoom={80}
 			/>
 
-			<mesh>
-				<Gltf
-					src={staticPath.rooms.scene_gltf}
-					rotation={rotation}
-					receiveShadow
-					castShadow
-				/>
-				<shadowMaterial transparent opacity={0.4} />
-			</mesh>
+			<Gltf
+				src={staticPath.assets.rooms.low_poly_isometric_rooms_glb}
+				rotation={rotation}
+				receiveShadow
+				castShadow
+			/>
 
 			<OrbitControls
 				maxZoom={150}
@@ -70,6 +67,7 @@ function Scene() {
 				minPolarAngle={Math.PI / 3}
 				maxAzimuthAngle={Math.PI / 4}
 				minAzimuthAngle={-Math.PI / 4}
+				enablePan={false}
 			/>
 		</>
 	)

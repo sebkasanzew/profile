@@ -5,15 +5,12 @@ export const pagesPath = {
 export type PagesPath = typeof pagesPath
 
 export const staticPath = {
-  favicon_ico: '/favicon.ico',
-  rooms: {
-    scene_bin: '/rooms/scene.bin',
-    scene_gltf: '/rooms/scene.gltf',
-    textures: {
-      Colors_baseColor_png: '/rooms/textures/Colors_baseColor.png',
-      Colors_metallicRoughness_png: '/rooms/textures/Colors_metallicRoughness.png'
+  assets: {
+    rooms: {
+      low_poly_isometric_rooms_glb: '/assets/rooms/low_poly_isometric_rooms.glb'
     }
-  }
+  },
+  favicon_ico: '/favicon.ico'
 } as const
 
 export type StaticPath = typeof staticPath
