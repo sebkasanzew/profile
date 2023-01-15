@@ -29,7 +29,7 @@ export function useCssVariable<TValue = string | undefined>(
 	return value
 }
 
-export function toThreeColor(color: string): Color | undefined {
+export function HslToThreeColor(color: string): Color | undefined {
 	if (!color) {
 		return
 	}
@@ -37,4 +37,18 @@ export function toThreeColor(color: string): Color | undefined {
 	const hsl = color.trim().replaceAll(' ', ', ')
 
 	return new Color(`hsl(${hsl})`)
+}
+
+export function HslToHexColor(color: string): string | undefined {
+	if (!color) {
+		return
+	}
+
+	const threeColor = HslToThreeColor(color)
+
+	if (!threeColor) {
+		return
+	}
+
+	return '#' + threeColor.getHexString()
 }
