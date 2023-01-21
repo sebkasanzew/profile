@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': 13.1.4
-  '@react-three/drei': 9.53.3
+  '@react-three/drei': 9.54.0
   '@react-three/fiber': 8.10.1
   '@types/node': 18.11.18
   '@types/react': 18.0.27
@@ -33,7 +33,7 @@ specifiers:
 
 dependencies:
   '@next/font': 13.1.4
-  '@react-three/drei': 9.53.3_x2hxvfhxegsms6izcxmvhtdkgy
+  '@react-three/drei': 9.54.0_x2hxvfhxegsms6izcxmvhtdkgy
   '@react-three/fiber': 8.10.1_4tzez3c2xpzuefjrvhpyy55bva
   '@vercel/analytics': 0.1.8_react@18.2.0
   clsx: 1.2.1
@@ -649,8 +649,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei/9.53.3_x2hxvfhxegsms6izcxmvhtdkgy:
-    resolution: {integrity: sha512-CjzyoLwAU291PO0AzHqz8ccNjV7EbNN6uK4fToGs1Lmtdvt4tng+EDpDD8LpNMvkC1AG0n8RnIerpfMTxfv5BQ==}
+  /@react-three/drei/9.54.0_x2hxvfhxegsms6izcxmvhtdkgy:
+    resolution: {integrity: sha512-lEy3M5vySNErWBNk6hpaFjgUJfKIohb9+13cHAfgKcba6UWCkn+eNb1I/9GEKkKQAv1xZCGDhi2t4jOLTaddjg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0 || >=18'
@@ -664,6 +664,7 @@ packages:
       '@react-spring/three': 9.6.1_dk5e3p3tgrhdw3cz2rstpfvyhq
       '@react-three/fiber': 8.10.1_4tzez3c2xpzuefjrvhpyy55bva
       '@use-gesture/react': 10.2.23_react@18.2.0
+      camera-controls: 1.37.6_three@0.148.0
       detect-gpu: 5.0.6
       glsl-noise: 0.0.0
       lodash.clamp: 4.0.3
@@ -1313,6 +1314,14 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
     dev: true
+
+  /camera-controls/1.37.6_three@0.148.0:
+    resolution: {integrity: sha512-Fpppn3RwHgmGPfnjRVtK9AlpjcPdYo/6lFTqsSJ+gk9jRi48VmLFEBZ6uLLmTQiKiKjrs906ZMaAJW3fXIChdA==}
+    peerDependencies:
+      three: '>=0.126.1'
+    dependencies:
+      three: 0.148.0
+    dev: false
 
   /caniuse-lite/1.0.30001444:
     resolution: {integrity: sha512-ecER9xgJQVMqcrxThKptsW0pPxSae8R2RB87LNa+ivW9ppNWRHEplXcDzkCOP4LYWGj8hunXLqaiC41iBATNyg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001444.tgz}
