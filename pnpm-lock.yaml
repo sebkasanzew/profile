@@ -29,7 +29,7 @@ specifiers:
   three: 0.148.0
   turbo: 1.7.0
   typescript: 4.9.4
-  vercel: 28.13.0
+  vercel: 28.13.1
 
 dependencies:
   '@next/font': 13.1.4
@@ -62,7 +62,7 @@ devDependencies:
   tailwindcss: 3.2.4_postcss@8.4.21
   turbo: 1.7.0
   typescript: 4.9.4
-  vercel: 28.13.0
+  vercel: 28.13.1
 
 packages:
 
@@ -4539,8 +4539,8 @@ packages:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==, registry: https://registry.yarnpkg.com/, tarball: https://registry.yarnpkg.com/v8n/-/v8n-1.5.1.tgz}
     dev: false
 
-  /vercel/28.13.0:
-    resolution: {integrity: sha512-Ap2S4SPyasCcd9n1eWFpsN/tYOUX4XWJMKE57ppXNkU8Y3JzriLIv4szYbezKDkyShbUcCqVLVB2ek0dG4wLXg==}
+  /vercel/28.13.1:
+    resolution: {integrity: sha512-rcbdM5PYcB9tPHFnvXMr2Q8FUp1t8P1coQnJ6LY1Ifz0ezv2f18unHQ0QneQiDDcl+3CjeHEdBXIl3FuRYtq9w==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
