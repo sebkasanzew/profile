@@ -12,7 +12,7 @@ specifiers:
   autoprefixer: 10.4.13
   clsx: 1.2.1
   concurrently: 7.6.0
-  daisyui: 2.49.0
+  daisyui: 2.50.0
   eslint: 8.33.0
   eslint-config-next: 13.1.6
   eslint-config-prettier: 8.6.0
@@ -51,7 +51,7 @@ devDependencies:
   '@types/three': 0.149.0
   autoprefixer: 10.4.13_postcss@8.4.21
   concurrently: 7.6.0
-  daisyui: 2.49.0_gbtt6ss3tbiz4yjtvdr6fbrj44
+  daisyui: 2.50.0_gbtt6ss3tbiz4yjtvdr6fbrj44
   eslint: 8.33.0
   eslint-config-next: 13.1.6_4vsywjlpuriuw3tl5oq6zy5a64
   eslint-config-prettier: 8.6.0_eslint@8.33.0
@@ -1558,8 +1558,8 @@ packages:
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
 
-  /daisyui/2.49.0_gbtt6ss3tbiz4yjtvdr6fbrj44:
-    resolution: {integrity: sha512-+hEFMupi/7rqkAH4d3iBWj1TXRq73V3PrkJ3HiDqFuQgMoE1/UQOgMoeqaHa3r4IRo4fjMNauwHBA17qT0YSIA==}
+  /daisyui/2.50.0_gbtt6ss3tbiz4yjtvdr6fbrj44:
+    resolution: {integrity: sha512-KiqRvqMXi9rgoH84M8D69gXPg6x+cbdiaHqm8pFHOsXXN1rTl/+OcCKkSnkEwTtIge9VJVDGU6l4B8/n+Juc5g==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
