@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': 13.1.6
-  '@react-three/drei': 9.56.17
+  '@react-three/drei': 9.56.18
   '@react-three/fiber': 8.10.4
   '@types/node': 18.11.19
   '@types/react': 18.0.27
@@ -33,7 +33,7 @@ specifiers:
 
 dependencies:
   '@next/font': 13.1.6
-  '@react-three/drei': 9.56.17_5uchuvk6p5l7cuc5shezogvpz4
+  '@react-three/drei': 9.56.18_5uchuvk6p5l7cuc5shezogvpz4
   '@react-three/fiber': 8.10.4_xor7byvqlg4baqj6ymfbcmaax4
   '@vercel/analytics': 0.1.8_react@18.2.0
   clsx: 1.2.1
@@ -655,8 +655,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei/9.56.17_5uchuvk6p5l7cuc5shezogvpz4:
-    resolution: {integrity: sha512-Y+PHAShfZFUmrkLm76aKBCvz10BmiAYfpgjMDEJ2OD+bcSYv0rQcAPQ8NYVtRlVFFBl2r9cdm0iUE1pcZaNfOA==}
+  /@react-three/drei/9.56.18_5uchuvk6p5l7cuc5shezogvpz4:
+    resolution: {integrity: sha512-oWXuzRGq5OyYqc7Gu03gWKXuTc3iVZ4zw0pOd386JIgXtfi5DmhOUZCuixAhC4QYUvmCDIAQvXetCxqBE9zslw==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0 || >=18'
