@@ -8,7 +8,7 @@ specifiers:
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@types/three': 0.149.0
-  '@vercel/analytics': 0.1.8
+  '@vercel/analytics': 0.1.9
   autoprefixer: 10.4.13
   clsx: 1.2.1
   concurrently: 7.6.0
@@ -35,7 +35,7 @@ dependencies:
   '@next/font': 13.1.6
   '@react-three/drei': 9.56.24_dnzsvkb3dcowwlgign6zktihi4
   '@react-three/fiber': 8.11.1_xor7byvqlg4baqj6ymfbcmaax4
-  '@vercel/analytics': 0.1.8_react@18.2.0
+  '@vercel/analytics': 0.1.9_react@18.2.0
   clsx: 1.2.1
   leva: 0.9.34_biqbaboplfbrettd7655fr4n2y
   next: 13.1.6_pjwopsidmaokadturxaafygjp4
@@ -2599,8 +2599,8 @@ packages:
     resolution: {integrity: sha512-17kVyLq3ePTKOkveHxXuIJZtGYs+cSoev7BlP+Lf4916qfDhk/HBjvlYDe8egrea7LNPHKwSZJK/bzZC+Q6AwQ==}
     dev: true
 
-  /@vercel/analytics/0.1.8_react@18.2.0:
-    resolution: {integrity: sha512-PQrOI8BJ9qUiVJuQfnKiJd15eDjDJH9TBKsNeMrtelT4NAk7d9mBVz1CoZkvoFnHQ0OW7Xnqmr1F2nScfAnznQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.8.tgz}
+  /@vercel/analytics/0.1.9_react@18.2.0:
+    resolution: {integrity: sha512-Lfus/6HAZXQBr4uv5eCtNKrEvthKWQFFcUNh5wC3fWn+4PbHxT8bqcm1TMQfYvGJ8O4TWzn0IfrQFNWh1DHDbQ==}
     peerDependencies:
       react: ^16.8 || ^17 || ^18 || >=18
     dependencies:
