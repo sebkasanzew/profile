@@ -34,7 +34,7 @@
     "@types/react-dom": "18.0.11",
     "@types/three": "0.150.0",
     "autoprefixer": "10.4.14",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.1",
     "daisyui": "2.51.5",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
