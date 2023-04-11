@@ -88,8 +88,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vercel:
-    specifier: 28.18.4
-    version: 28.18.4(@types/node@18.15.11)
+    specifier: 28.18.5
+    version: 28.18.5(@types/node@18.15.11)
 
 packages:
 
@@ -2777,8 +2777,8 @@ packages:
       web-vitals: 0.2.4
     dev: true
 
-  /@vercel/gatsby-plugin-vercel-builder@1.2.7:
-    resolution: {integrity: sha512-v/HDXZhJeO3Z8BaGHa9ecllyu4Y91AaH77w3+InOmRwDqX5HshcZnXwvoW7UC408eU2stkqZbSShvIyCOwG+4g==}
+  /@vercel/gatsby-plugin-vercel-builder@1.2.8:
+    resolution: {integrity: sha512-Z2HDeD/XzGxLIgaLEKBCwGKhI0aorzmY1gYccq8yaC2pXMKBJblZfU87QQwgQgXI+BWigXM0xmtIca6ijbyALg==}
     dependencies:
       '@sinclair/typebox': 0.25.24
       '@vercel/build-utils': 6.7.1
@@ -2981,11 +2981,11 @@ packages:
     resolution: {integrity: sha512-sUmzJnd9O1N7StFEpKG9JvHJvHmJjgfrmhgQsQLEQ7OOQJkO9DYoLomlrIDW9qNdu7dNOeyj7gQY5B8y8RMntw==}
     dev: true
 
-  /@vercel/static-build@1.3.22:
-    resolution: {integrity: sha512-ILMhikPs8mcHtUeJoNOGtRHfg0XlQH3yWQkD9AQe8YE9XoiJWfDkHFSy6kdpiWjHQH4C5N2sEgRSpIGnSuGAZg==}
+  /@vercel/static-build@1.3.23:
+    resolution: {integrity: sha512-SjlOOqZRoe/10Af3iSWKEo2+pFpTwroZj6pwF1iP7I9Y3G5IDObzOfpxgdpsKCWSlmUIr1sGOjf1fgoPctbdLw==}
     dependencies:
       '@vercel/gatsby-plugin-vercel-analytics': 1.0.9
-      '@vercel/gatsby-plugin-vercel-builder': 1.2.7
+      '@vercel/gatsby-plugin-vercel-builder': 1.2.8
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -9153,8 +9153,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@28.18.4(@types/node@18.15.11):
-    resolution: {integrity: sha512-JEG/fX5yYIXSBmU6rjY269x2NxVFZKiF40UJSeBUiZwzzrnIHv+LLyvIiWg+2NJjZ4IvYGrZTRVnEZYPlUlBmQ==}
+  /vercel@28.18.5(@types/node@18.15.11):
+    resolution: {integrity: sha512-WdW5s7w2eGmvKwrIyG32BR/N0hKz9iiZe/INyqopW2Ql+E768ROSP+r+SFpWLMpkGGw14QnmZsFutZ5r7IbpJg==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -9168,7 +9168,7 @@ packages:
       '@vercel/redwood': 1.1.14
       '@vercel/remix-builder': 1.8.4(@types/node@18.15.11)
       '@vercel/ruby': 1.3.75
-      '@vercel/static-build': 1.3.22
+      '@vercel/static-build': 1.3.23
     transitivePeerDependencies:
       - '@remix-run/serve'
       - '@swc/core'
