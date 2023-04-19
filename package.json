@@ -41,7 +41,7 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
     "pathpida": "0.20.1",
-    "postcss": "8.4.22",
+    "postcss": "8.4.23",
     "prettier": "2.8.7",
     "tailwindcss": "3.3.1",
     "turbo": "1.9.3",
