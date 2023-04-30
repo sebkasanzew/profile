@@ -88,8 +88,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vercel:
-    specifier: 29.0.2
-    version: 29.0.2(@types/node@18.16.3)
+    specifier: 29.0.3
+    version: 29.0.3(@types/node@18.16.3)
 
 packages:
 
@@ -2832,8 +2832,8 @@ packages:
     resolution: {integrity: sha512-1rzFB664G6Yzp7j4ezW9hvVjqnaU2BhyUdhchbsxtRuxkMpGgPBZKhjzRQHFvlmkz37XLC658T5Nb1P91b4sBw==}
     dev: true
 
-  /@vercel/next@3.8.1:
-    resolution: {integrity: sha512-UR5M6bMW5GZUF+ACSb1/2BxQK8AM+QSdtUQVUPeFXRVvJ4xGauQ/00KQ5TjRQjJYxwJfslDQodAG1NLzqIZI8A==}
+  /@vercel/next@3.8.2:
+    resolution: {integrity: sha512-tTcfAC+C+3la1g2UJW0cm9lGEU1Mq5O0x73MLQPKWpoHOHqZYjbKBCUm5nAFKnaMSvWS1kFm9b0v1iKQk28mGA==}
     dev: true
 
   /@vercel/nft@0.22.5:
@@ -9204,8 +9204,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@29.0.2(@types/node@18.16.3):
-    resolution: {integrity: sha512-p6NpyHRK956cuPh3jCzzaMGAmKSU0k/E/Ubpjx9XgqGNXb4mZUE8ZDBzjY+U9MywiEl7STvJcVzFtmyFddTvCA==}
+  /vercel@29.0.3(@types/node@18.16.3):
+    resolution: {integrity: sha512-wKc9Ee5jNQAVRNFGen9zAzF/RaaeIJ1dcd5Zkz55CjjunI5UA2+zTYTBbUEqFNyrrRWrBDcqreNfq5/AgiA5BA==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -9213,7 +9213,7 @@ packages:
       '@vercel/build-utils': 6.7.2
       '@vercel/go': 2.5.1
       '@vercel/hydrogen': 0.0.64
-      '@vercel/next': 3.8.1
+      '@vercel/next': 3.8.2
       '@vercel/node': 2.14.0
       '@vercel/python': 3.1.60
       '@vercel/redwood': 1.1.15
