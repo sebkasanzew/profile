@@ -19,7 +19,7 @@
     "@next/font": "13.3.4",
     "@react-three/drei": "9.66.1",
     "@react-three/fiber": "8.13.0",
-    "@vercel/analytics": "1.0.0",
+    "@vercel/analytics": "1.0.1",
     "clsx": "1.2.1",
     "leva": "0.9.34",
     "next": "13.3.4",
