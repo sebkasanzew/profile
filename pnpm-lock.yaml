@@ -5,8 +5,8 @@ dependencies:
     specifier: 13.4.1
     version: 13.4.1
   '@react-three/drei':
-    specifier: 9.66.3
-    version: 9.66.3(@react-three/fiber@8.13.0)(@types/three@0.152.0)(react-dom@18.2.0)(react@18.2.0)(three@0.152.2)
+    specifier: 9.66.4
+    version: 9.66.4(@react-three/fiber@8.13.0)(@types/three@0.152.0)(react-dom@18.2.0)(react@18.2.0)(three@0.152.2)
   '@react-three/fiber':
     specifier: 8.13.0
     version: 8.13.0(react-dom@18.2.0)(react@18.2.0)(three@0.152.2)
@@ -2105,8 +2105,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.66.3(@react-three/fiber@8.13.0)(@types/three@0.152.0)(react-dom@18.2.0)(react@18.2.0)(three@0.152.2):
-    resolution: {integrity: sha512-rsWVcRdcXlowWrDAF0CnEvSl3c6h+gZ68akXDHxT6bzlW4K1PPgvLC2kNixaxDHylHveoasNqezg7fvuIwfo/Q==}
+  /@react-three/drei@9.66.4(@react-three/fiber@8.13.0)(@types/three@0.152.0)(react-dom@18.2.0)(react@18.2.0)(three@0.152.2):
+    resolution: {integrity: sha512-RcllQcu7eQX/8NKxYnnDv/d9ll3Hc+LvGhseCpwwDZJq9reqQdzAj5avkaDL3HS6rVNLP+zJTO9EFk15GgKSPA==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0 || >=18'
@@ -6055,7 +6055,7 @@ packages:
     dev: true
 
   /loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, tarball: https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz}
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
