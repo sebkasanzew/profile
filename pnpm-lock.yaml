@@ -9,8 +9,8 @@ dependencies:
     specifier: 13.4.4
     version: 13.4.4
   '@react-three/drei':
-    specifier: 9.74.1
-    version: 9.74.1(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
+    specifier: 9.74.5
+    version: 9.74.5(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
   '@react-three/fiber':
     specifier: 8.13.0
     version: 8.13.0(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
@@ -2135,8 +2135,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.74.1(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
-    resolution: {integrity: sha512-iLmAJpoNPmWe556sv2gCS5RY/8d4ILTMIWCVGJLnkid8VHAx+hTrOqzuOynZYg0r9+93EOy4bNumcmgBZQS2uQ==}
+  /@react-three/drei@9.74.5(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
+    resolution: {integrity: sha512-M7w7CKBJiYLUfrIh7JcBPxUf9/vCkq9G+iupUvz+DPvaK9sQKvxXsj1t/4FKOBmWyv503E9PRbg0hzAnxYFHSg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0 || >=18'
