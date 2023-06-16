@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@next/font": "13.4.6",
-    "@react-three/drei": "9.74.16",
+    "@react-three/drei": "9.75.0",
     "@react-three/fiber": "8.13.3",
     "@vercel/analytics": "1.0.1",
     "clsx": "1.2.1",
