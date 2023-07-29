@@ -74,8 +74,8 @@ devDependencies:
     specifier: 5.0.0
     version: 5.0.0(eslint-config-prettier@8.9.0)(eslint@8.46.0)(prettier@3.0.0)
   pathpida:
-    specifier: 0.20.1
-    version: 0.20.1
+    specifier: 0.21.0
+    version: 0.21.0
   postcss:
     specifier: 8.4.27
     version: 8.4.27
@@ -3469,6 +3469,10 @@ packages:
     resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
     dev: true
 
+  /minimist@1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: true
+
   /minipass@3.3.6:
     resolution: {integrity: sha512-DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==}
     engines: {node: '>=8'}
@@ -3816,13 +3820,13 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /pathpida@0.20.1:
-    resolution: {integrity: sha512-kHP27AIgeS3AqPTug9FLwQ/VpPkwjMv+TgMgpePeLKj/gMyY6h8/gRtAsWjTwzDV92LtHnbMSy3V12jQ/xVBeg==, tarball: https://registry.yarnpkg.com/pathpida/-/pathpida-0.20.1.tgz}
+  /pathpida@0.21.0:
+    resolution: {integrity: sha512-eHubghHa664sZBGgkVzPnoOiy0+rXRhqCCz2zOwaDLRXkKOEIyrg6WIjYBtpjqZSYwOorbIDse6xOafjRqO1bg==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
       ignore: 5.2.4
-      minimist: 1.2.7
+      minimist: 1.2.8
     dev: true
 
   /picocolors@1.0.0:
