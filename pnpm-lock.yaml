@@ -74,8 +74,8 @@ devDependencies:
     specifier: 5.0.0
     version: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.47.0)(prettier@3.0.2)
   pathpida:
-    specifier: 0.21.0
-    version: 0.21.0
+    specifier: 0.22.0
+    version: 0.22.0
   postcss:
     specifier: 8.4.28
     version: 8.4.28
@@ -3814,8 +3814,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /pathpida@0.21.0:
-    resolution: {integrity: sha512-eHubghHa664sZBGgkVzPnoOiy0+rXRhqCCz2zOwaDLRXkKOEIyrg6WIjYBtpjqZSYwOorbIDse6xOafjRqO1bg==}
+  /pathpida@0.22.0:
+    resolution: {integrity: sha512-aoBBy2e9Ov2Nd/ryeIX8Cn6kNqgblYWlDDLArM3WEctRwlOvqNn4D9WJOTpB+EVr5MkQNAiwNoi7iYSGDNLZ0A==}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
