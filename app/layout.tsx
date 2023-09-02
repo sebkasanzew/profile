@@ -1,4 +1,4 @@
-import { Inter, Lora } from '@next/font/google'
+import { Inter, Lora } from 'next/font/google'
 import clsx from 'clsx'
 
 import { AnalyticsWrapper } from './components/analytics'
