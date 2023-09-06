@@ -56,8 +56,8 @@ devDependencies:
     specifier: 8.2.1
     version: 8.2.1
   daisyui:
-    specifier: 3.6.5
-    version: 3.6.5
+    specifier: 3.6.6
+    version: 3.6.6
   eslint:
     specifier: 8.48.0
     version: 8.48.0
@@ -1717,8 +1717,8 @@ packages:
   /csstype@3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
 
-  /daisyui@3.6.5:
-    resolution: {integrity: sha512-1yPTKlCf1usfSsUaTvu5l/Fi8TEchy8H9/rAtvPMwWd++ifl56ASnaDQfHZhl9lnPtCWj/mWicrwL7aaNz53KA==}
+  /daisyui@3.6.6:
+    resolution: {integrity: sha512-hYsU94/zJRN9Y2bvnXeqitd+If/rLkOsSm49DjPUL8TFhyKXb9KhgcH78fnn12pkrE03K5NjWk7JaYyq1z9oAw==}
     engines: {node: '>=16.9.0'}
     dependencies:
       colord: 2.9.3
