@@ -34,7 +34,7 @@
     "@types/three": "0.156.0",
     "autoprefixer": "10.4.16",
     "concurrently": "8.2.1",
-    "daisyui": "3.7.3",
+    "daisyui": "3.8.3",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "eslint-config-prettier": "9.0.0",
