@@ -1,7 +1,12 @@
 /** @type {import('eslint').ESLint.ConfigData} */
 const eslintConfig = {
-	extends: ['next/core-web-vitals', 'prettier'],
-	plugins: ['prettier'],
+	extends: [
+		'plugin:@typescript-eslint/recommended',
+		'next/core-web-vitals',
+		'prettier',
+	],
+	parser: '@typescript-eslint/parser',
+	plugins: ['@typescript-eslint', 'prettier'],
 
 	rules: {
 		'prettier/prettier': ['warn', {}, { usePrettierrc: true }],

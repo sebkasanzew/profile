@@ -9,7 +9,7 @@ import {
 	useHelper,
 } from '@react-three/drei'
 import { useControls } from 'leva'
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { BackSide, SpotLight, SpotLightHelper } from 'three'
 import { HslToHexColor, useCssVariable } from './useCssVariable'
 
