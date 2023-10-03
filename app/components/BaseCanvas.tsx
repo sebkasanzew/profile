@@ -1,7 +1,7 @@
 'use client'
 
 import { Canvas as Canvas } from '@react-three/fiber'
-import { BasicShadowMap, PCFSoftShadowMap, VSMShadowMap } from 'three'
+import { VSMShadowMap } from 'three'
 
 type Props = {
 	children: React.ReactNode

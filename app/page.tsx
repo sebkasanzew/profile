@@ -1,4 +1,3 @@
-import { Leva } from 'leva'
 import Link from 'next/link'
 import BaseCanvas from './components/BaseCanvas'
 import LevaSettings from './components/LevaSettings'
