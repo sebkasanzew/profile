@@ -16,7 +16,7 @@
     "update:env": "vercel env pull .env.local"
   },
   "dependencies": {
-    "@react-three/drei": "9.88.11",
+    "@react-three/drei": "9.88.12",
     "@react-three/fiber": "8.15.10",
     "@vercel/analytics": "1.1.1",
     "clsx": "2.0.0",
