@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@react-three/drei": "9.88.13",
-    "@react-three/fiber": "8.15.10",
+    "@react-three/fiber": "8.15.11",
     "@vercel/analytics": "1.1.1",
     "clsx": "2.0.0",
     "leva": "0.9.35",
