@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@react-three/drei':
-    specifier: 9.92.3
-    version: 9.92.3(@react-three/fiber@8.15.12)(@types/three@0.159.0)(react-dom@18.2.0)(react@18.2.0)(three@0.159.0)
+    specifier: 9.92.4
+    version: 9.92.4(@react-three/fiber@8.15.12)(@types/three@0.159.0)(react-dom@18.2.0)(react@18.2.0)(three@0.159.0)
   '@react-three/fiber':
     specifier: 8.15.12
     version: 8.15.12(react-dom@18.2.0)(react@18.2.0)(three@0.159.0)
@@ -833,8 +833,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.92.3(@react-three/fiber@8.15.12)(@types/three@0.159.0)(react-dom@18.2.0)(react@18.2.0)(three@0.159.0):
-    resolution: {integrity: sha512-Ci4JeidQO12rqXm3GQjZmEXILVCxptqMssMa97qeVFJUdIY1AXrufWdRlIVePYoQ9dRDRsn6gn5F/wWfA5SJUQ==}
+  /@react-three/drei@9.92.4(@react-three/fiber@8.15.12)(@types/three@0.159.0)(react-dom@18.2.0)(react@18.2.0)(three@0.159.0):
+    resolution: {integrity: sha512-CbRd9lkdpY1T0NPVmkLwrZ39S67cDmkk8rGHtMQX6hb8GUb6Cx+GDck4L2K0umEpeQh9PC6ypUARxy+k8vpeIA==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0 || >=18'
@@ -856,7 +856,7 @@ packages:
       lodash.clamp: 4.0.3
       lodash.omit: 4.5.0
       lodash.pick: 4.4.0
-      maath: 0.9.0(@types/three@0.159.0)(three@0.159.0)
+      maath: 0.10.7(@types/three@0.159.0)(three@0.159.0)
       meshline: 3.1.6(three@0.159.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
@@ -3745,8 +3745,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /maath@0.9.0(@types/three@0.159.0)(three@0.159.0):
-    resolution: {integrity: sha512-aAR8hoUqPxlsU8VOxkS9y37jhUzdUxM017NpCuxFU1Gk+nMaZASZxymZrV8LRSHzRk/watlbfyNKu6XPUhCFrQ==}
+  /maath@0.10.7(@types/three@0.159.0)(three@0.159.0):
+    resolution: {integrity: sha512-zQ2xd7dNOIVTjAS+hj22fyj1EFYmOJX6tzKjZ92r6WDoq8hyFxjuGA2q950tmR4iC/EKXoMQdSipkaJVuUHDTg==}
     peerDependencies:
       '@types/three': '>=0.144.0'
       three: '>=0.144.0'
