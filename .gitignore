@@ -38,4 +38,7 @@ next-env.d.ts
 # turborepo
 .turbo
 
-.vercel
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
