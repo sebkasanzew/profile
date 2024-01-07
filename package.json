@@ -11,6 +11,8 @@
     "t:dev": "turbo dev",
     "t:build": "turbo build",
     "start": "next start",
+    "test": "pnpm dlx playwright test",
+    "test:update": "node scripts/update_visual_tests.mjs",
     "lint": "eslint . --fix",
     "update:latest": "pnpm update --latest --interactive",
     "update:env": "vercel env pull .env.local"
@@ -28,6 +30,7 @@
     "three": "0.160.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.40.1",
     "@types/node": "20.10.6",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
