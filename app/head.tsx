@@ -1,5 +1,3 @@
-import { staticPath } from '#/app/$path'
-
 export default function Head() {
 	return (
 		<>
@@ -12,7 +10,6 @@ export default function Head() {
 				name='description'
 				content='A overview over the career and life style of Sebastian'
 			/>
-			<link rel='icon' href={staticPath.favicon_ico} />
 		</>
 	)
 }

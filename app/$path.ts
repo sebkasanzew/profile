@@ -17,8 +17,7 @@ export const staticPath = {
     rooms: {
       low_poly_isometric_rooms_glb: '/assets/rooms/low_poly_isometric_rooms.glb'
     }
-  },
-  favicon_ico: '/favicon.ico'
+  }
 } as const;
 
 export type StaticPath = typeof staticPath;
