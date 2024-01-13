@@ -24,7 +24,7 @@
     "next": "14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-use": "17.4.2",
+    "react-use": "17.4.3",
     "three": "0.160.0"
   },
   "devDependencies": {
