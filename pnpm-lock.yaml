@@ -97,8 +97,8 @@ importers:
         specifier: 5.6.3
         version: 5.6.3
       vercel:
-        specifier: 37.9.0
-        version: 37.9.0
+        specifier: 37.11.0
+        version: 37.11.0
 
 packages:
 
@@ -3200,8 +3200,8 @@ packages:
   v8n@1.5.1:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==}
 
-  vercel@37.9.0:
-    resolution: {integrity: sha512-uAayU4fnLqBdxyKay4xhcQVPspUYJeAGRGwTTtKgjjIbe474gONmaEFx644XfnpPQSSqHsIcu4iKnNnRI3NXgQ==}
+  vercel@37.11.0:
+    resolution: {integrity: sha512-LCTKg4zxfHFBYULLcIEEi9CxFnywd0y0cUd23wdajqBKSBcEqrR2z77v0uU1G5dzlvqmL7dpAHXYu55jNU1GeA==}
     engines: {node: '>= 16'}
     hasBin: true
 
@@ -6692,7 +6692,7 @@ snapshots:
 
   v8n@1.5.1: {}
 
-  vercel@37.9.0:
+  vercel@37.11.0:
     dependencies:
       '@vercel/build-utils': 8.4.11
       '@vercel/fun': 1.1.0
