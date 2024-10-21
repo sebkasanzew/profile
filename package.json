@@ -46,7 +46,7 @@
 		"postcss": "8.4.47",
 		"prettier": "3.3.3",
 		"tailwindcss": "3.4.14",
-		"turbo": "2.2.2",
+		"turbo": "2.2.3",
 		"typescript": "5.6.3",
 		"vercel": "37.11.0"
 	},
