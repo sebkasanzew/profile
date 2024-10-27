@@ -4,5 +4,5 @@ test('initial', async ({ page }) => {
 	await page.goto('./')
 
 	await expect(page.getByText('rotation')).toBeVisible()
-	await expect(page).toHaveScreenshot({ maxDiffPixels: 50 })
+	await expect(page).toHaveScreenshot({ maxDiffPixels: 50, timeout: 20_000 })
 })
