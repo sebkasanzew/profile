@@ -34,7 +34,7 @@ jobs:
             - name: Run Playwright tests
               run: pnpm test
 
-            - uses: actions/upload-artifact@v3
+            - uses: actions/upload-artifact@v4
               if: failure()
               with:
                   name: playwright-report
