@@ -12,8 +12,9 @@
 		"t:dev": "turbo dev",
 		"t:build": "turbo build",
 		"start": "next start",
-		"test": "pnpm dlx playwright test",
-		"test:update": "node scripts/update_visual_tests.mjs",
+		"test": "pnpm exec playwright test",
+		"pw:open": "pnpm exec playwright test --ui",
+		"pw:update": "pnpm exec playwright test --update-snapshots",
 		"lint": "eslint . --fix",
 		"update:latest": "pnpm update --latest --interactive",
 		"update:env": "vercel env pull .env.local"
@@ -62,7 +63,6 @@
 		}
 	},
 	"engines": {
-		"node": "20.x",
-		"pnpm": ">=9"
+		"node": "20.x"
 	}
 }

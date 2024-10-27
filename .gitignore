@@ -42,3 +42,5 @@ next-env.d.ts
 /test-results/
 /playwright-report/
 /playwright/.cache/
+tests/snapshots/**/*.png
+!tests/snapshots/**/*-chromium-linux.png
