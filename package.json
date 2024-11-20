@@ -2,7 +2,7 @@
 	"name": "profile",
 	"version": "0.1.0",
 	"private": true,
-	"packageManager": "pnpm@9.14.1",
+	"packageManager": "pnpm@9.14.2",
 	"scripts": {
 		"dev": "concurrently -n path,next --hide path \"pnpm dev:path\" \"pnpm dev:next\"",
 		"dev:next": "next dev",
