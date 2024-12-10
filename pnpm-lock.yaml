@@ -33,8 +33,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
       react-use:
-        specifier: 17.5.1
-        version: 17.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 17.6.0
+        version: 17.6.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       three:
         specifier: 0.171.0
         version: 0.171.0
@@ -2941,8 +2941,8 @@ packages:
       react: '*'
       tslib: '*'
 
-  react-use@17.5.1:
-    resolution: {integrity: sha512-LG/uPEVRflLWMwi3j/sZqR00nF6JGqTTDblkXK2nzXsIvij06hXl1V/MZIlwj1OKIQUtlh1l9jK8gLsRyCQxMg==}
+  react-use@17.6.0:
+    resolution: {integrity: sha512-OmedEScUMKFfzn1Ir8dBxiLLSOzhKe/dPZwVxcujweSj45aNM7BEGPb9BEVIgVEqEXx6f3/TsXzwIktNgUR02g==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -6803,7 +6803,7 @@ snapshots:
       react: 19.0.0
       tslib: 2.6.2
 
-  react-use@17.5.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-use@17.6.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@types/js-cookie': 2.2.7
       '@xobotyi/scrollbar-width': 1.9.5
