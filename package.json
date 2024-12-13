@@ -41,7 +41,7 @@
 		"@typescript-eslint/parser": "8.18.0",
 		"autoprefixer": "10.4.20",
 		"concurrently": "9.1.0",
-		"daisyui": "4.12.21",
+		"daisyui": "4.12.22",
 		"eslint": "8.57.1",
 		"eslint-config-next": "15.1.0",
 		"eslint-config-prettier": "9.1.0",
