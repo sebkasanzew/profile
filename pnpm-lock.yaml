@@ -82,8 +82,8 @@ importers:
         specifier: 5.2.1
         version: 5.2.1(@types/eslint@9.6.0)(eslint-config-prettier@9.1.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.4.2)
       pathpida:
-        specifier: 0.23.0
-        version: 0.23.0
+        specifier: 0.23.1
+        version: 0.23.1
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -2650,8 +2650,8 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  pathpida@0.23.0:
-    resolution: {integrity: sha512-ugftUoHXBBcoyqlJXQtn9Ml0iqjhHV27aZ9f16YXXAFCpSIm3y/TJvAbqcFz6KSLTiSVS3ZtzelYHVFnhoT6Qw==}
+  pathpida@0.23.1:
+    resolution: {integrity: sha512-H9d/3RcvAFtRtTaXYCXRbDhUiFHY3cSmzayxK59jFc4/3wAYpFwOJJQEReOxzSBN74/3c1D/2t+rvmPLpqR8KA==}
     hasBin: true
 
   pend@1.2.0:
@@ -6272,7 +6272,7 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  pathpida@0.23.0:
+  pathpida@0.23.1:
     dependencies:
       chokidar: 4.0.1
       ignore: 6.0.2
