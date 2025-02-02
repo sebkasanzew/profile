@@ -33,11 +33,11 @@ export default function BaseEnvironment() {
 
 	return (
 		<>
-			<ambientLight intensity={0.03} />
+			<ambientLight intensity={0.1} />
 
 			<spotLight
 				ref={spotLightRef}
-				intensity={0.5}
+				intensity={10}
 				position={[0, 2.5, 3]}
 				angle={angle}
 				target-position={[0, 0.6, 0]}
