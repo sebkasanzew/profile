@@ -6,7 +6,6 @@ const tailwindConfig = {
 		'./app/**/*.{js,ts,jsx,tsx}',
 		'./pages/**/*.{js,ts,jsx,tsx}',
 		'./components/**/*.{js,ts,jsx,tsx}',
-		'node_modules/daisyui/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
 		extend: {
@@ -16,7 +15,7 @@ const tailwindConfig = {
 			},
 		},
 	},
-	plugins: [require('daisyui')],
+	plugins: [],
 }
 
 module.exports = tailwindConfig
