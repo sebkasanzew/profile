@@ -10,19 +10,13 @@ export default function Home() {
 				<Scene />
 			</BaseCanvas>
 
-			<section className='absolute bottom-4 right-4 rounded'>
-				<label htmlFor='credits-modal' className='btn btn-ghost'>
-					credits
-				</label>
+			<section className='absolute bottom-4 right-4 rounded-sm'>
+				<label htmlFor='credits-modal'>credits</label>
 
-				<input
-					type='checkbox'
-					id='credits-modal'
-					className='modal-toggle'
-				/>
+				<input type='checkbox' id='credits-modal' />
 
-				<label htmlFor='credits-modal' className='modal cursor-pointer'>
-					<label className='modal-box relative' htmlFor=''>
+				<label htmlFor='credits-modal' className='cursor-pointer'>
+					<label className='relative' htmlFor=''>
 						<h3 className='text-lg font-bold'>
 							Thanks for the inspiration!
 						</h3>
