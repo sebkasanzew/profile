@@ -29,7 +29,7 @@
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-use": "17.6.0",
-		"three": "0.174.0"
+		"three": "0.175.0"
 	},
 	"devDependencies": {
 		"@playwright/test": "1.51.1",
@@ -37,7 +37,7 @@
 		"@types/node": "22.13.14",
 		"@types/react": "19.0.12",
 		"@types/react-dom": "19.0.4",
-		"@types/three": "0.174.0",
+		"@types/three": "0.175.0",
 		"@typescript-eslint/eslint-plugin": "8.28.0",
 		"@typescript-eslint/parser": "8.28.0",
 		"concurrently": "9.1.2",
