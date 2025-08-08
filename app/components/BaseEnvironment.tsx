@@ -28,8 +28,8 @@ export default function BaseEnvironment() {
 		decay: { value: 0.2, min: 0, max: 5 },
 	})
 
-	const colorBase300 = useCssVariable('--b3', HslToHexColor) || '#000'
-	const colorPrimary = useCssVariable('--p', HslToHexColor) || '#000'
+	const colorBase300 = useCssVariable('--b3', HslToHexColor) ?? '#000'
+	const colorPrimary = useCssVariable('--p', HslToHexColor) ?? '#000'
 
 	return (
 		<>
