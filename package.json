@@ -50,7 +50,7 @@
 		"prettier": "3.6.2",
 		"tailwindcss": "4.1.11",
 		"turbo": "2.5.5",
-		"typescript": "5.8.3",
+		"typescript": "5.9.2",
 		"vercel": "44.6.3"
 	},
 	"pnpm": {
