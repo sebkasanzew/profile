@@ -51,7 +51,7 @@
 		"tailwindcss": "4.1.11",
 		"turbo": "2.5.5",
 		"typescript": "5.9.2",
-		"vercel": "44.6.3"
+		"vercel": "44.7.3"
 	},
 	"pnpm": {
 		"peerDependencyRules": {
