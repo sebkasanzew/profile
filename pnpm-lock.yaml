@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@react-three/drei':
-        specifier: 10.7.3
-        version: 10.7.3(@react-three/fiber@9.3.0(@types/react@19.1.11)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0))(@types/react@19.1.11)(@types/three@0.175.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0)
+        specifier: 10.7.4
+        version: 10.7.4(@react-three/fiber@9.3.0(@types/react@19.1.11)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0))(@types/react@19.1.11)(@types/three@0.175.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0)
       '@react-three/fiber':
         specifier: 9.3.0
         version: 9.3.0(@types/react@19.1.11)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0)
@@ -551,8 +551,8 @@ packages:
   '@radix-ui/rect@1.0.0':
     resolution: {integrity: sha512-d0O68AYy/9oeEy1DdC07bz1/ZXX+DqCskRd3i4JzLSTXwefzaepQrKjXC7aNM8lTHjFLDO0pDgaEiQ7jEk+HVg==}
 
-  '@react-three/drei@10.7.3':
-    resolution: {integrity: sha512-Krq6rRkBdOb9CfVOlYJqjoweSjX0mvj0fnXt1OGphCG8WA7cv8E0WB6XPuURklqVfdHmDB5wfnpXTHB+KFaGfA==}
+  '@react-three/drei@10.7.4':
+    resolution: {integrity: sha512-awojw2DAwmQmAXawNNcBmVJnXzIhsuCRm8pELAdETzPVA6jIHj0Mlm4Ce8fjtJpFEIoTgLOaQ8iYROiOA2ZN6g==}
     peerDependencies:
       '@react-three/fiber': ^9.0.0
       react: ^19
@@ -3837,7 +3837,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.26.0
 
-  '@react-three/drei@10.7.3(@react-three/fiber@9.3.0(@types/react@19.1.11)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0))(@types/react@19.1.11)(@types/three@0.175.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0)':
+  '@react-three/drei@10.7.4(@react-three/fiber@9.3.0(@types/react@19.1.11)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0))(@types/react@19.1.11)(@types/three@0.175.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(three@0.175.0)':
     dependencies:
       '@babel/runtime': 7.26.0
       '@mediapipe/tasks-vision': 0.10.17
