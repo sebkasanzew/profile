@@ -3,7 +3,7 @@
 import { Canvas as Canvas } from '@react-three/fiber'
 import { VSMShadowMap } from 'three'
 
-type Props = {
+interface Props {
 	children: React.ReactNode
 }
 
