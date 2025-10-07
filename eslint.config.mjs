@@ -74,6 +74,14 @@ const config = [
 		},
 	}),
 
+	// Ignore triple-slash-reference rule in next-env.d.ts (Next.js generated file)
+	{
+		files: ['next-env.d.ts'],
+		rules: {
+			'@typescript-eslint/triple-slash-reference': 'off',
+		},
+	},
+
 	// Prettier last to show formatting issues as ESLint warnings
 	prettierRecommended,
 ]
