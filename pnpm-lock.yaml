@@ -52,8 +52,8 @@ importers:
         specifier: 4.1.14
         version: 4.1.14
       '@types/node':
-        specifier: 24.8.0
-        version: 24.8.0
+        specifier: 24.8.1
+        version: 24.8.1
       '@types/react':
         specifier: 19.2.2
         version: 19.2.2
@@ -860,8 +860,8 @@ packages:
   '@types/node@16.18.11':
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
 
-  '@types/node@24.8.0':
-    resolution: {integrity: sha512-5x08bUtU8hfboMTrJ7mEO4CpepS9yBwAqcL52y86SWNmbPX8LVbNs3EP4cNrIZgdjk2NAlP2ahNihozpoZIxSg==}
+  '@types/node@24.8.1':
+    resolution: {integrity: sha512-alv65KGRadQVfVcG69MuB4IzdYVpRwMG/mq8KWOaoOdyY617P5ivaDiMCGOFDWD2sAn5Q0mR3mRtUOgm99hL9Q==}
 
   '@types/offscreencanvas@2019.7.3':
     resolution: {integrity: sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==}
@@ -4261,7 +4261,7 @@ snapshots:
 
   '@types/node@16.18.11': {}
 
-  '@types/node@24.8.0':
+  '@types/node@24.8.1':
     dependencies:
       undici-types: 7.14.0
 
