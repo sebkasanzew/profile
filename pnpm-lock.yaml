@@ -106,8 +106,8 @@ importers:
         specifier: 8.46.2
         version: 8.46.2(eslint@9.38.0(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: 48.4.1
-        version: 48.4.1
+        specifier: 48.5.0
+        version: 48.5.0
 
 packages:
 
@@ -3405,8 +3405,8 @@ packages:
   v8n@1.5.1:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==}
 
-  vercel@48.4.1:
-    resolution: {integrity: sha512-EzunA8iHf55CDM5CUQQYR2+xp+1n8AqJziuOJx19w8Io2aQK1NjsRhmsHsogw9zsQ3xpdofaCs4MTjPHFNhdtA==}
+  vercel@48.5.0:
+    resolution: {integrity: sha512-RS1x1pzSOP1obiZzZE/IKwFalFNmRMpqVHxBNsri1o9ldtreknkM83tuyVmkQsY660VJOQhEq/Lo+Wl0jIRuRw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -7071,7 +7071,7 @@ snapshots:
 
   v8n@1.5.1: {}
 
-  vercel@48.4.1:
+  vercel@48.5.0:
     dependencies:
       '@vercel/blob': 1.0.2
       '@vercel/build-utils': 12.1.3
