@@ -35,7 +35,7 @@ jobs:
             - name: Update snapshots
               run: pnpm exec playwright test --update-snapshots
 
-            - uses: actions/upload-artifact@v4
+            - uses: actions/upload-artifact@v5
               if: failure()
               with:
                   name: playwright-report
