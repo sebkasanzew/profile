@@ -1,53 +1,19 @@
-// ESLint v9 flat config for this Next.js + TypeScript repo
 import js from '@eslint/js'
-import { FlatCompat } from '@eslint/eslintrc'
+import { defineConfig, globalIgnores } from 'eslint/config'
+import nextVitals from 'eslint-config-next/core-web-vitals'
+import nextTs from 'eslint-config-next/typescript'
 import tseslint from 'typescript-eslint'
 import prettierRecommended from 'eslint-plugin-prettier/recommended'
 
-// Use FlatCompat to consume eslint-config-next (legacy style)
-const compat = new FlatCompat({ baseDirectory: import.meta.dirname })
-
-const config = [
-	// Ignore common output folders
-	{
-		ignores: [
-			'node_modules',
-			'**/.next',
-			'out',
-			'public',
-			'**/.turbo',
-			'**/playwright-report',
-			'**/test-results',
-			'**/$path.ts',
-		],
-	},
-
+export default defineConfig([
 	// Base JS recommendations
 	js.configs.recommended,
 
-	// Next.js config via compat (core web vitals)
-	...compat.config({ extends: ['next/core-web-vitals'] }),
-	// Disable TS-specific unsafe rules on this JS config file
-	{
-		files: ['eslint.config.mjs'],
-		rules: {
-			'@typescript-eslint/no-unsafe-assignment': 'off',
-			'@typescript-eslint/no-unsafe-call': 'off',
-			'@typescript-eslint/no-unsafe-member-access': 'off',
-		},
-	},
-
-	// General project-wide rules not specific to TS
-	{
-		rules: {
-			'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
-			// With appDir we don't have pages dir-specific rule
-			'@next/next/no-html-link-for-pages': 'off',
-		},
-	},
+	...nextVitals,
+	...nextTs,
 
 	// TypeScript recommended (type-checked + stylistic), scoped to TS files only
-	...tseslint.config({
+	{
 		files: ['**/*.{ts,tsx}'],
 		extends: [
 			...tseslint.configs.recommendedTypeChecked,
@@ -72,18 +38,58 @@ const config = [
 				},
 			],
 		},
-	}),
+	},
 
-	// Ignore triple-slash-reference rule in next-env.d.ts (Next.js generated file)
+	// Disable TS-specific unsafe rules on this JS config file
 	{
-		files: ['next-env.d.ts'],
+		files: ['eslint.config.mjs'],
 		rules: {
-			'@typescript-eslint/triple-slash-reference': 'off',
+			'@typescript-eslint/no-unsafe-assignment': 'off',
+			'@typescript-eslint/no-unsafe-call': 'off',
+			'@typescript-eslint/no-unsafe-member-access': 'off',
+		},
+	},
+
+	// General project-wide rules not specific to TS
+	{
+		rules: {
+			'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
+			// With appDir we don't have pages dir-specific rule
+			'@next/next/no-html-link-for-pages': 'off',
+		},
+	},
+
+	// Global ignores: override defaults from eslint-config-next and add project-specific ones
+	globalIgnores([
+		// Defaults from eslint-config-next
+		'.next/**',
+		'out/**',
+		'build/**',
+		'next-env.d.ts',
+		// Project-specific
+		'public/**',
+		'**/.turbo/**',
+		'**/playwright-report/**',
+		'**/test-results/**',
+		'**/$path.ts',
+	]),
+
+	// Node-specific globals for tool config files
+	{
+		files: ['postcss.config.js'],
+		languageOptions: {
+			globals: {
+				module: 'readonly',
+				require: 'readonly',
+				process: 'readonly',
+				__dirname: 'readonly',
+				__filename: 'readonly',
+				exports: 'readonly',
+				global: 'readonly',
+			},
 		},
 	},
 
 	// Prettier last to show formatting issues as ESLint warnings
 	prettierRecommended,
-]
-
-export default config
+])

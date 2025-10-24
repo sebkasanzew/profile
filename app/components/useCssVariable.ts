@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, startTransition } from 'react'
 import { Color } from 'three'
 
 /**
@@ -17,13 +17,15 @@ export function useCssVariable<TValue = string | undefined>(
 		const style = getComputedStyle(document.documentElement)
 		const cssValue = style.getPropertyValue(variableName)
 
-		if (cssValue && parse) {
-			setValue(parse(cssValue))
-		} else if (cssValue) {
-			setValue(cssValue as TValue)
-		} else {
-			setValue(undefined)
-		}
+		startTransition(() => {
+			if (cssValue && parse) {
+				setValue(parse(cssValue))
+			} else if (cssValue) {
+				setValue(cssValue as TValue)
+			} else {
+				setValue(undefined)
+			}
+		})
 	}, [parse, variableName])
 
 	return value
