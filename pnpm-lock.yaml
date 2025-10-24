@@ -45,6 +45,9 @@ importers:
       '@eslint/js':
         specifier: 9.38.0
         version: 9.38.0
+      '@next/eslint-plugin-next':
+        specifier: 16.0.0
+        version: 16.0.0
       '@playwright/test':
         specifier: 1.56.1
         version: 1.56.1
@@ -3637,6 +3640,9 @@ packages:
   zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
+  zod@4.1.12:
+    resolution: {integrity: sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==}
+
   zustand@3.7.2:
     resolution: {integrity: sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==}
     engines: {node: '>=12.7.0'}
@@ -5614,8 +5620,8 @@ snapshots:
       '@babel/parser': 7.28.5
       eslint: 9.38.0(jiti@2.6.1)
       hermes-parser: 0.25.1
-      zod: 3.22.4
-      zod-validation-error: 4.0.2(zod@3.22.4)
+      zod: 4.1.12
+      zod-validation-error: 4.0.2(zod@4.1.12)
     transitivePeerDependencies:
       - supports-color
 
@@ -7494,11 +7500,13 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-validation-error@4.0.2(zod@3.22.4):
+  zod-validation-error@4.0.2(zod@4.1.12):
     dependencies:
-      zod: 3.22.4
+      zod: 4.1.12
 
   zod@3.22.4: {}
+
+  zod@4.1.12: {}
 
   zustand@3.7.2(react@19.2.0):
     optionalDependencies:
