@@ -41,8 +41,8 @@
 		"@types/react": "19.2.6",
 		"@types/react-dom": "19.2.3",
 		"@types/three": "0.181.0",
-		"@typescript-eslint/eslint-plugin": "8.46.4",
-		"@typescript-eslint/parser": "8.46.4",
+		"@typescript-eslint/eslint-plugin": "8.47.0",
+		"@typescript-eslint/parser": "8.47.0",
 		"concurrently": "9.2.1",
 		"eslint": "9.39.1",
 		"eslint-config-next": "16.0.3",
@@ -54,7 +54,7 @@
 		"tailwindcss": "4.1.17",
 		"turbo": "2.6.1",
 		"typescript": "5.9.3",
-		"typescript-eslint": "8.46.4",
+		"typescript-eslint": "8.47.0",
 		"vercel": "48.10.3"
 	},
 	"pnpm": {
