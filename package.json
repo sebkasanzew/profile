@@ -33,7 +33,7 @@
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "3.3.3",
-		"@eslint/js": "9.39.1",
+		"@eslint/js": "9.39.2",
 		"@next/eslint-plugin-next": "16.0.10",
 		"@playwright/test": "1.57.0",
 		"@tailwindcss/postcss": "4.1.18",
@@ -44,7 +44,7 @@
 		"@typescript-eslint/eslint-plugin": "8.49.0",
 		"@typescript-eslint/parser": "8.49.0",
 		"concurrently": "9.2.1",
-		"eslint": "9.39.1",
+		"eslint": "9.39.2",
 		"eslint-config-next": "16.0.10",
 		"eslint-config-prettier": "10.1.8",
 		"eslint-plugin-prettier": "5.5.4",
