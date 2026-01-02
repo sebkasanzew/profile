@@ -48,8 +48,6 @@ export default function BaseEnvironment() {
 				shadow-bias={-0.0001}
 				shadow-camera-near={0.01}
 				shadow-camera-far={100}
-				shadow-radius={0}
-				shadow-blurSamples={2}
 				distance={distance}
 				decay={decay}
 			/>
