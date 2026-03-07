@@ -88,8 +88,8 @@ importers:
         specifier: 5.5.5
         version: 5.5.5(@types/eslint@9.6.0)(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.6.1)))(eslint@9.39.4(jiti@2.6.1))(prettier@3.8.1)
       pathpida:
-        specifier: 0.25.0
-        version: 0.25.0
+        specifier: 0.26.0
+        version: 0.26.0
       postcss:
         specifier: 8.5.8
         version: 8.5.8
@@ -3402,8 +3402,8 @@ packages:
   path-to-regexp@8.3.0:
     resolution: {integrity: sha512-7jdwVIRtsP8MYpdXSwOS0YdD0Du+qOoF/AEPIt88PcCFrZCzx41oxku1jD88hZBwbNUIEfpqvuhjFaMAqMTWnA==}
 
-  pathpida@0.25.0:
-    resolution: {integrity: sha512-GS0nxTBO2vDcNsZMoBJu3kURSzB55jkAEH+XzFbfIFg8f93WKPUnhAru+VcFXKcXPIkljSM3zYw9TX9cyAP+og==}
+  pathpida@0.26.0:
+    resolution: {integrity: sha512-Bk0f+n0bU832i2BvMPOPmpCsFJMwqtogAFkfHCkeHu8Yl86RHdsui2RidV8mW/D23RjpOy8z6r/xWRxTEcHAkA==}
     hasBin: true
 
   pend@1.2.0:
@@ -7568,7 +7568,7 @@ snapshots:
 
   path-to-regexp@8.3.0: {}
 
-  pathpida@0.25.0:
+  pathpida@0.26.0:
     dependencies:
       chokidar: 4.0.3
       ignore: 7.0.5
