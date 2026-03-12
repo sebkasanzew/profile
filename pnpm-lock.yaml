@@ -109,8 +109,8 @@ importers:
         specifier: 8.57.0
         version: 8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
       vercel:
-        specifier: 50.32.3
-        version: 50.32.3(rollup@4.59.0)(typescript@5.9.3)
+        specifier: 50.32.4
+        version: 50.32.4(rollup@4.59.0)(typescript@5.9.3)
 
 packages:
 
@@ -6480,8 +6480,8 @@ packages:
   v8n@1.5.1:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==}
 
-  vercel@50.32.3:
-    resolution: {integrity: sha512-3ZYaLqS3smkTDR2NT7w7UV9FdYaynXBYN/4PwDuMz9qRSdQX5dAPnnMpux1NN3QP/H9oV0+DxIKyEXbHqbe/Cg==}
+  vercel@50.32.4:
+    resolution: {integrity: sha512-Qh67nxN6xDp3CiVDhUwFIWr50gJsqzL7gziC6Ee+nCqL/SA/sF1iSPRbefYTJ7ofVTKg2yN//Q2VP/VAh8o91g==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -13555,7 +13555,7 @@ snapshots:
 
   v8n@1.5.1: {}
 
-  vercel@50.32.3(rollup@4.59.0)(typescript@5.9.3):
+  vercel@50.32.4(rollup@4.59.0)(typescript@5.9.3):
     dependencies:
       '@vercel/backends': 0.0.45(rollup@4.59.0)(typescript@5.9.3)
       '@vercel/blob': 2.3.0
