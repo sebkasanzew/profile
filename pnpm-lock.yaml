@@ -88,8 +88,8 @@ importers:
         specifier: 5.5.5
         version: 5.5.5(@types/eslint@9.6.0)(eslint-config-prettier@10.1.8(eslint@9.39.4(jiti@2.6.1)))(eslint@9.39.4(jiti@2.6.1))(prettier@3.8.1)
       pathpida:
-        specifier: 0.26.0
-        version: 0.26.0
+        specifier: 0.26.1
+        version: 0.26.1
       postcss:
         specifier: 8.5.8
         version: 8.5.8
@@ -2713,11 +2713,6 @@ packages:
   '@vercel/next@4.16.3':
     resolution: {integrity: sha512-yVLrMxMI+Taq47C94lWVUf981WerJ+COrJbgltHcMY8HDdXdgthYe06+na3dni31AL6BYShS8VLpE54QsAdM9Q==}
 
-  '@vercel/nft@1.4.0':
-    resolution: {integrity: sha512-rr7JVnI7YGjA4lngucrWjZ7eCOJZZQaDHB+5NRGOuNc+k4PU2Lb9PmYm8uBmW8qichF7WkR2RmwmhXHBhx6wzw==}
-    engines: {node: '>=20'}
-    hasBin: true
-
   '@vercel/nft@1.5.0':
     resolution: {integrity: sha512-IWTDeIoWhQ7ZtRO/JRKH+jhmeQvZYhtGPmzw/QGDY+wDCQqfm25P9yIdoAFagu4fWsK4IwZXDFIjrmp5rRm/sA==}
     engines: {node: '>=20'}
@@ -5206,8 +5201,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pathpida@0.26.0:
-    resolution: {integrity: sha512-Bk0f+n0bU832i2BvMPOPmpCsFJMwqtogAFkfHCkeHu8Yl86RHdsui2RidV8mW/D23RjpOy8z6r/xWRxTEcHAkA==}
+  pathpida@0.26.1:
+    resolution: {integrity: sha512-X2BL+Ir7SaGT/O68G1am07EqMwGJBdh4Y7dD2XvMonMuU4OjbNXhfYWIpD0HXfa5Nccrb9QbnGGJScHxGny2Uw==}
     hasBin: true
 
   pend@1.2.0:
@@ -9029,26 +9024,6 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/nft@1.4.0(rollup@4.59.0)':
-    dependencies:
-      '@mapbox/node-pre-gyp': 2.0.0
-      '@rollup/pluginutils': 5.3.0(rollup@4.59.0)
-      acorn: 8.16.0
-      acorn-import-attributes: 1.9.5(acorn@8.16.0)
-      async-sema: 3.1.1
-      bindings: 1.5.0
-      estree-walker: 2.0.2
-      glob: 13.0.0
-      graceful-fs: 4.2.11
-      node-gyp-build: 4.8.4
-      picomatch: 4.0.3
-      resolve-from: 5.0.0
-    transitivePeerDependencies:
-      - encoding
-      - rollup
-      - supports-color
-    optional: true
-
   '@vercel/nft@1.5.0(rollup@4.59.0)':
     dependencies:
       '@mapbox/node-pre-gyp': 2.0.0
@@ -11729,7 +11704,7 @@ snapshots:
       '@rollup/plugin-node-resolve': 16.0.3(rollup@4.59.0)
       '@rollup/plugin-replace': 6.0.3(rollup@4.59.0)
       '@rollup/plugin-terser': 0.4.4(rollup@4.59.0)
-      '@vercel/nft': 1.4.0(rollup@4.59.0)
+      '@vercel/nft': 1.5.0(rollup@4.59.0)
       archiver: 7.0.1
       c12: 3.3.3(magicast@0.5.2)
       chokidar: 5.0.0
@@ -12300,7 +12275,7 @@ snapshots:
   pathe@2.0.3:
     optional: true
 
-  pathpida@0.26.0:
+  pathpida@0.26.1:
     dependencies:
       chokidar: 4.0.3
       ignore: 7.0.5
