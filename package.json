@@ -37,7 +37,7 @@
 		"@next/eslint-plugin-next": "16.2.5",
 		"@playwright/test": "1.59.1",
 		"@tailwindcss/postcss": "4.2.4",
-		"@types/node": "24.12.2",
+		"@types/node": "24.12.3",
 		"@types/react": "19.2.14",
 		"@types/react-dom": "19.2.3",
 		"@types/three": "0.184.1",
