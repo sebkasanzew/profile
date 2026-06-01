@@ -73,8 +73,8 @@ importers:
         specifier: 8.60.0
         version: 8.60.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
       concurrently:
-        specifier: 10.0.0
-        version: 10.0.0
+        specifier: 10.0.1
+        version: 10.0.1
       eslint:
         specifier: 9.39.4
         version: 9.39.4(jiti@2.6.1)
@@ -2824,11 +2824,6 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@vercel/nft@1.5.0':
-    resolution: {integrity: sha512-IWTDeIoWhQ7ZtRO/JRKH+jhmeQvZYhtGPmzw/QGDY+wDCQqfm25P9yIdoAFagu4fWsK4IwZXDFIjrmp5rRm/sA==}
-    engines: {node: '>=20'}
-    hasBin: true
-
   '@vercel/node@5.8.8':
     resolution: {integrity: sha512-+uRT9evnGWUE6klrJJED4fCvlSxNShbIc/UY4FeUzt2sdcy5a5b1IoYlo94RJd7tAY9Jg2lR2cVfGfsnWH81ZA==}
 
@@ -3401,8 +3396,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@10.0.0:
-    resolution: {integrity: sha512-DRrk10z3sVPpguNe8od2cGNqZGqbT15rwAnxD4dG3b78mdNNb/gJyr8T834Oj518WcBmTktrt4FhdwZn09ZWSg==}
+  concurrently@10.0.1:
+    resolution: {integrity: sha512-vN61cP9COzctyhBqKUOh9YHqU70hYPnaHqNpXdBzM9PcwIpfPAvNK06hjm4gEJEGuvy4GBairO6uU32+FKpS4g==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -9318,26 +9313,6 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/nft@1.5.0(rollup@4.59.0)':
-    dependencies:
-      '@mapbox/node-pre-gyp': 2.0.0
-      '@rollup/pluginutils': 5.3.0(rollup@4.59.0)
-      acorn: 8.16.0
-      acorn-import-attributes: 1.9.5(acorn@8.16.0)
-      async-sema: 3.1.1
-      bindings: 1.5.0
-      estree-walker: 2.0.2
-      glob: 13.0.0
-      graceful-fs: 4.2.11
-      node-gyp-build: 4.8.4
-      picomatch: 4.0.3
-      resolve-from: 5.0.0
-    transitivePeerDependencies:
-      - encoding
-      - rollup
-      - supports-color
-    optional: true
-
   '@vercel/node@5.8.8(rollup@4.59.0)':
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
@@ -10093,7 +10068,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@10.0.0:
+  concurrently@10.0.1:
     dependencies:
       chalk: 5.6.2
       rxjs: 7.8.2
@@ -12032,7 +12007,7 @@ snapshots:
       '@rollup/plugin-node-resolve': 16.0.3(rollup@4.59.0)
       '@rollup/plugin-replace': 6.0.3(rollup@4.59.0)
       '@rollup/plugin-terser': 0.4.4(rollup@4.59.0)
-      '@vercel/nft': 1.5.0(rollup@4.59.0)
+      '@vercel/nft': 1.10.0(rollup@4.59.0)
       archiver: 7.0.1
       c12: 3.3.3(magicast@0.5.2)
       chokidar: 5.0.0
