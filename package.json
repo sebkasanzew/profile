@@ -55,7 +55,7 @@
 		"turbo": "2.9.16",
 		"typescript": "6.0.3",
 		"typescript-eslint": "8.60.1",
-		"vercel": "54.7.1"
+		"vercel": "54.9.0"
 	},
 	"pnpm": {
 		"peerDependencyRules": {
