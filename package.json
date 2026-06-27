@@ -50,7 +50,7 @@
 		"eslint-plugin-prettier": "5.5.6",
 		"pathpida": "0.26.1",
 		"postcss": "8.5.15",
-		"prettier": "3.8.5",
+		"prettier": "3.9.0",
 		"tailwindcss": "4.3.1",
 		"turbo": "2.10.0",
 		"typescript": "6.0.3",
