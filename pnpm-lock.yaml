@@ -109,8 +109,8 @@ importers:
         specifier: 8.64.0
         version: 8.64.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       vercel:
-        specifier: 56.1.0
-        version: 56.1.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
+        specifier: 56.2.0
+        version: 56.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
 
 packages:
 
@@ -6642,8 +6642,8 @@ packages:
   v8n@1.5.1:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==}
 
-  vercel@56.1.0:
-    resolution: {integrity: sha512-1T/2FO15gEKmzKyOVY5uE9OkQFLLo2s5l3pkvWBN3B0y3prKx/d0DvHDmu+Ocrm1l+WJslnsYJ/gSRsqSeJnng==}
+  vercel@56.2.0:
+    resolution: {integrity: sha512-4k4WzaLhZuPuksw96qQbmXqEQvhEAwuZACDtL3aiF7Ys5XplRapidWBQAnXx6dYemj8Q7Nf8W8A43uhnJA49aQ==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -14222,7 +14222,7 @@ snapshots:
 
   v8n@1.5.1: {}
 
-  vercel@56.1.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0):
+  vercel@56.2.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0):
     dependencies:
       '@vercel/backends': 0.8.23(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
       '@vercel/blob': 2.4.0
