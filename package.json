@@ -52,7 +52,7 @@
 		"postcss": "8.5.22",
 		"prettier": "3.9.6",
 		"tailwindcss": "4.3.3",
-		"turbo": "2.10.5",
+		"turbo": "2.10.6",
 		"typescript": "6.0.3",
 		"typescript-eslint": "8.64.0",
 		"vercel": "56.3.2"
