@@ -109,8 +109,8 @@ importers:
         specifier: 8.67.0
         version: 8.67.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       vercel:
-        specifier: 59.1.3
-        version: 59.1.3(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
+        specifier: 59.1.4
+        version: 59.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
 
 packages:
 
@@ -2944,23 +2944,23 @@ packages:
   '@vercel/static-config@3.4.1':
     resolution: {integrity: sha512-kJKTyOg25JDRgDkHEkc+vWlvURxmSQkVKyRPO4EEGD/8HpJT+4u9Z/VGxwnCZ6zZBxYPpma283qBsHwY0gXjfw==}
 
-  '@vercel/vc-native-darwin-arm64@59.1.3':
-    resolution: {integrity: sha512-9HlFE5IzyHwfPjlxImvaY/6Q2+R8QDblLevaVn0UqogJbGsIgC7hOCAs4VABNJE7Poxq8VdtmF0XTijkPBkFsA==}
+  '@vercel/vc-native-darwin-arm64@59.1.4':
+    resolution: {integrity: sha512-AGLi/pOqnqj86JyCdgWZxgQtOUhdi8aPQiSoUMZr5en9T5hIlvhif26tV8xMl9rNXTOQNyccJemC6sd5bOi0HA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@vercel/vc-native-darwin-x64@59.1.3':
-    resolution: {integrity: sha512-OzraluZAteaoGW+EaLsXRmW4D3mKvpWCnlXc+uwLtIha3OKBC9IOHm6H7rVeeyqyW1gEwmntHb8JuBq/cglDSA==}
+  '@vercel/vc-native-darwin-x64@59.1.4':
+    resolution: {integrity: sha512-77Ldd2tpU1tJ8vc/P/5JljHIuuKMLUCQJ8UF7p09+kHQD6YeQUZYDhXMOaxuRPQIWFdrA60WyVF1cW08LY75NQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@vercel/vc-native-linux-arm64@59.1.3':
-    resolution: {integrity: sha512-1S3g6o8GnI23eQUb4btmmu8H5YzIggZo0rwSkqLqWdCpHT0CMfN/d/A73YE1kkEwcNfXgcnO5HT8d3Bti4AIdw==}
+  '@vercel/vc-native-linux-arm64@59.1.4':
+    resolution: {integrity: sha512-7AQhKO5prfEB9ubl39byEC5lCz5ljRxWCnmwNZbser3/IVpfXAkgFi3vLzrVcxQMTyARHuUxu6PsSm/2KQdZXA==}
     cpu: [arm64]
     os: [linux]
 
-  '@vercel/vc-native-linux-x64@59.1.3':
-    resolution: {integrity: sha512-ihohS24kl4zBoAKH/9Rs7jMgXC1CGt7XyeD1yPgIBA3op/BJE9o02FGJst+HSpsSusK0mY09eDvQtdURtu3dog==}
+  '@vercel/vc-native-linux-x64@59.1.4':
+    resolution: {integrity: sha512-y8XjBbyJMBZQVRkJTO2XK6hubbW8Hv0o/UNvN4OFWU7qpdcyDflYJw4FhaLuS63dYtdTK9k6NT5/RBDLxRSwYQ==}
     cpu: [x64]
     os: [linux]
 
@@ -6602,8 +6602,8 @@ packages:
   v8n@1.5.1:
     resolution: {integrity: sha512-LdabyT4OffkyXFCe9UT+uMkxNBs5rcTVuZClvxQr08D5TUgo1OFKkoT65qYRCsiKBl/usHjpXvP4hHMzzDRj3A==}
 
-  vercel@59.1.3:
-    resolution: {integrity: sha512-sxCp4+S0QlO+LEvGxboxB5tbDZvVE4gO2YeRuGvdamK5CYHTOK4WDHE3u+E8VIe8FVK9mtjKeo4Jnxez5MfNdw==}
+  vercel@59.1.4:
+    resolution: {integrity: sha512-oLctNaFB5bptskV4gioZQ6Ac4E0fDbKKU/q/JX1H+lz7IWgsTgKafwxvfJHJiCANEH5syl7a9H1IxxGN7Dp8dg==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -9505,16 +9505,16 @@ snapshots:
       json-schema-to-ts: 1.6.4
       ts-morph: 12.0.0
 
-  '@vercel/vc-native-darwin-arm64@59.1.3':
+  '@vercel/vc-native-darwin-arm64@59.1.4':
     optional: true
 
-  '@vercel/vc-native-darwin-x64@59.1.3':
+  '@vercel/vc-native-darwin-x64@59.1.4':
     optional: true
 
-  '@vercel/vc-native-linux-arm64@59.1.3':
+  '@vercel/vc-native-linux-arm64@59.1.4':
     optional: true
 
-  '@vercel/vc-native-linux-x64@59.1.3':
+  '@vercel/vc-native-linux-x64@59.1.4':
     optional: true
 
   '@vitejs/plugin-vue-jsx@5.1.4(vite@7.3.1(@types/node@24.13.3)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.46.0)(tsx@4.21.0)(yaml@2.8.2))(vue@3.5.30(typescript@6.0.3))':
@@ -14114,7 +14114,7 @@ snapshots:
 
   v8n@1.5.1: {}
 
-  vercel@59.1.3(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0):
+  vercel@59.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0):
     dependencies:
       '@vercel/backends': 0.8.38(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(rollup@4.59.0)
       '@vercel/blob': 2.8.0
@@ -14154,10 +14154,10 @@ snapshots:
       uuid: 14.0.1
       zod: 4.1.11
     optionalDependencies:
-      '@vercel/vc-native-darwin-arm64': 59.1.3
-      '@vercel/vc-native-darwin-x64': 59.1.3
-      '@vercel/vc-native-linux-arm64': 59.1.3
-      '@vercel/vc-native-linux-x64': 59.1.3
+      '@vercel/vc-native-darwin-arm64': 59.1.4
+      '@vercel/vc-native-darwin-x64': 59.1.4
+      '@vercel/vc-native-linux-arm64': 59.1.4
+      '@vercel/vc-native-linux-x64': 59.1.4
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
