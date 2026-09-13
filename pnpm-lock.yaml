@@ -88,8 +88,8 @@ importers:
         specifier: 5.5.6
         version: 5.5.6(@types/eslint@9.6.0)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.7.0)))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.6)
       pathpida:
-        specifier: 0.26.1
-        version: 0.26.1
+        specifier: 0.27.0
+        version: 0.27.0
       postcss:
         specifier: 8.5.28
         version: 8.5.28
@@ -4587,6 +4587,10 @@ packages:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
 
+  ignore@7.0.9:
+    resolution: {integrity: sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==}
+    engines: {node: '>= 4'}
+
   image-meta@0.2.2:
     resolution: {integrity: sha512-3MOLanc3sb3LNGWQl1RlQlNWURE5g32aUphrDyFeCsxBTk08iE3VNe4CwsUZ0Qs1X+EfX0+r29Sxdpza4B+yRA==}
 
@@ -5557,8 +5561,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pathpida@0.26.1:
-    resolution: {integrity: sha512-X2BL+Ir7SaGT/O68G1am07EqMwGJBdh4Y7dD2XvMonMuU4OjbNXhfYWIpD0HXfa5Nccrb9QbnGGJScHxGny2Uw==}
+  pathpida@0.27.0:
+    resolution: {integrity: sha512-4RiW6V2wHKJa2ZhbNhgZBnUvmfI+nv8Fs8FsZ8AfYwKLXJQvgmw/qrJ+8eh2MzVG5hq1eiwL3+K5zUTw9TGrhQ==}
     hasBin: true
 
   pend@1.2.0:
@@ -10374,11 +10378,11 @@ snapshots:
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
+    optional: true
 
   chokidar@5.0.0:
     dependencies:
       readdirp: 5.0.0
-    optional: true
 
   chownr@3.0.0: {}
 
@@ -11627,6 +11631,8 @@ snapshots:
   ignore@5.3.2: {}
 
   ignore@7.0.5: {}
+
+  ignore@7.0.9: {}
 
   image-meta@0.2.2:
     optional: true
@@ -12945,10 +12951,10 @@ snapshots:
   pathe@2.0.3:
     optional: true
 
-  pathpida@0.26.1:
+  pathpida@0.27.0:
     dependencies:
-      chokidar: 4.0.3
-      ignore: 7.0.5
+      chokidar: 5.0.0
+      ignore: 7.0.9
       minimist: 1.2.8
 
   pend@1.2.0: {}
@@ -13339,8 +13345,7 @@ snapshots:
 
   readdirp@4.1.2: {}
 
-  readdirp@5.0.0:
-    optional: true
+  readdirp@5.0.0: {}
 
   redis-errors@1.2.0:
     optional: true
