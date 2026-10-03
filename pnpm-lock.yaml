@@ -88,8 +88,8 @@ importers:
         specifier: 5.5.6
         version: 5.5.6(@types/eslint@9.6.0)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.7.0)))(eslint@9.39.5(jiti@2.7.0))(prettier@3.9.9)
       pathpida:
-        specifier: 0.27.0
-        version: 0.27.0
+        specifier: 0.28.0
+        version: 0.28.0
       postcss:
         specifier: 8.5.28
         version: 8.5.28
@@ -5563,8 +5563,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pathpida@0.27.0:
-    resolution: {integrity: sha512-4RiW6V2wHKJa2ZhbNhgZBnUvmfI+nv8Fs8FsZ8AfYwKLXJQvgmw/qrJ+8eh2MzVG5hq1eiwL3+K5zUTw9TGrhQ==}
+  pathpida@0.28.0:
+    resolution: {integrity: sha512-LRzRMhmHUy9ZDnWB9SJ+i7luk5nDU+DsJNh3qtilU6Hx7cwKlZxNCN3bs1/IvELF9iL0OfSUQLCKUwTEGcf9Qg==}
     hasBin: true
 
   pend@1.2.0:
@@ -10379,6 +10379,7 @@ snapshots:
   chokidar@5.0.0:
     dependencies:
       readdirp: 5.0.0
+    optional: true
 
   chownr@3.0.0: {}
 
@@ -12945,11 +12946,9 @@ snapshots:
   pathe@2.0.3:
     optional: true
 
-  pathpida@0.27.0:
+  pathpida@0.28.0:
     dependencies:
-      chokidar: 5.0.0
       ignore: 7.0.9
-      minimist: 1.2.8
 
   pend@1.2.0: {}
 
@@ -13337,7 +13336,8 @@ snapshots:
 
   readdirp@4.1.2: {}
 
-  readdirp@5.0.0: {}
+  readdirp@5.0.0:
+    optional: true
 
   redis-errors@1.2.0:
     optional: true
