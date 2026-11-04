@@ -6,9 +6,16 @@ allowBuilds:
   sharp: false
   unrs-resolver: false
 minimumReleaseAgeExclude:
+  - '@next/env@16.4.5'
   - '@next/eslint-plugin-next@16.4.5'
-  - 'eslint-config-next@16.4.5'
-  - 'vercel@65.11.0'
+  - '@next/swc-darwin-arm64@16.4.5'
+  - '@next/swc-darwin-x64@16.4.5'
+  - '@next/swc-linux-arm64-gnu@16.4.5'
+  - '@next/swc-linux-arm64-musl@16.4.5'
+  - '@next/swc-linux-x64-gnu@16.4.5'
+  - '@next/swc-linux-x64-musl@16.4.5'
+  - '@next/swc-win32-arm64-msvc@16.4.5'
+  - '@next/swc-win32-x64-msvc@16.4.5'
   - '@vercel/cli-support@65.11.0'
   - '@vercel/vc-native-darwin-arm64@65.11.0'
   - '@vercel/vc-native-darwin-x64@65.11.0'
@@ -18,6 +25,9 @@ minimumReleaseAgeExclude:
   - '@vercel/vc-native-linux-x64@65.11.0'
   - '@vercel/vc-native-win32-arm64@65.11.0'
   - '@vercel/vc-native-win32-x64@65.11.0'
+  - 'eslint-config-next@16.4.5'
+  - 'next@16.4.5'
+  - 'vercel@65.11.0'
 peerDependencyRules:
   allowedVersions:
     react: '>=18'
