@@ -2,6 +2,8 @@
     "extends": [
         "config:base"
     ],
+    "minimumReleaseAge": "1 day",
+    "internalChecksFilter": "strict",
     "packageRules": [
         {
             "updateTypes": [
