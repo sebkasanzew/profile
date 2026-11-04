@@ -16,6 +16,7 @@
 		"pw:open": "pnpm exec playwright test --ui",
 		"pw:update": "pnpm exec playwright test --update-snapshots",
 		"lint": "eslint . --fix",
+		"typecheck": "tsc --noEmit",
 		"update:latest": "pnpm update --latest --interactive",
 		"update:env": "vercel env pull .env.local"
 	},
@@ -43,6 +44,7 @@
 		"@types/three": "0.187.0",
 		"@typescript-eslint/eslint-plugin": "8.72.1",
 		"@typescript-eslint/parser": "8.72.1",
+		"@typescript/native": "npm:typescript@7.0.2",
 		"concurrently": "10.0.6",
 		"eslint": "10.14.0",
 		"eslint-config-next": "16.4.5",
@@ -53,7 +55,7 @@
 		"prettier": "3.9.10",
 		"tailwindcss": "4.3.4",
 		"turbo": "2.11.10",
-		"typescript": "6.0.3",
+		"typescript": "npm:@typescript/typescript6@6.0.2",
 		"typescript-eslint": "8.72.1",
 		"vercel": "65.11.0"
 	},
