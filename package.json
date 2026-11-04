@@ -2,7 +2,7 @@
 	"name": "profile",
 	"version": "0.1.0",
 	"private": true,
-	"packageManager": "pnpm@10.34.9",
+	"packageManager": "pnpm@12.16.1",
 	"scripts": {
 		"dev": "concurrently -n path,next --hide path \"pnpm dev:path\" \"pnpm dev:next\"",
 		"dev:next": "next dev",
@@ -56,17 +56,6 @@
 		"typescript": "6.0.3",
 		"typescript-eslint": "8.72.1",
 		"vercel": "65.11.0"
-	},
-	"pnpm": {
-		"peerDependencyRules": {
-			"allowedVersions": {
-				"react": ">=18",
-				"react-dom": ">=18"
-			}
-		},
-		"onlyBuiltDependencies": [
-			"@tailwindcss/oxide"
-		]
 	},
 	"engines": {
 		"node": "20.x || 22.x || 24.x || 26.x"
