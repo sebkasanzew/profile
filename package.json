@@ -57,7 +57,7 @@
 		"turbo": "2.11.10",
 		"typescript": "npm:@typescript/typescript6@6.0.2",
 		"typescript-eslint": "8.72.1",
-		"vercel": "65.11.0"
+		"vercel": "65.12.1"
 	},
 	"engines": {
 		"node": "20.x || 22.x || 24.x || 26.x"
