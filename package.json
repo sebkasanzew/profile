@@ -52,7 +52,7 @@
 		"eslint-plugin-prettier": "5.5.7",
 		"pathpida": "0.28.0",
 		"postcss": "8.5.32",
-		"prettier": "3.9.10",
+		"prettier": "3.10.0",
 		"tailwindcss": "4.3.5",
 		"turbo": "2.11.11",
 		"typescript": "npm:@typescript/typescript6@6.0.2",
